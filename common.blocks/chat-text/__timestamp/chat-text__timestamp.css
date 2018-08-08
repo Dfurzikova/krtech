@@ -1,0 +1,8 @@
+.chat-text__timestamp {
+  font-family: "Open Sans", sans-serif;
+  font-size: 10px;
+  color: rgb(153, 153, 153);
+  position: absolute;
+  right: 5px;
+  margin-top: 17px;
+}

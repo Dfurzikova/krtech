@@ -1,0 +1,9 @@
+.chat-window__close-icon {
+    font-size: 16px;
+    font-family: "FontAwesome";
+    display: inline-block;
+    right: 13px;
+    position: absolute;
+    color: #cccccc;
+    margin-right: 10px;
+}

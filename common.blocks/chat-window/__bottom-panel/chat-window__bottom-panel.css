@@ -1,0 +1,10 @@
+.chat-window__bottom-panel {
+  width: 100%;
+  height: 59px;
+  bottom: 0;
+  position: absolute;
+ 
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,10 @@
+.user-image__icon_type_typing {
+  width: 17px;
+  height: 17px;
+  border-radius: 3px;
+  color: #275f7e;
+  font-size: 10px;
+  line-height: 1.7;
+  text-align: center;
+  background-color: #c0d6e4;
+}

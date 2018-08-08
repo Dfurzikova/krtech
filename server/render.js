@@ -65,6 +65,8 @@ function render(req, res, data, context) {
     res.send(html);
 }
 
+
+
 function dropCache() {
     cache = Object.create(null);
 }

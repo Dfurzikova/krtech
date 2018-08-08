@@ -1,0 +1,12 @@
+.user-image__icon_type_close {
+  width: 17px;
+  height: 17px;
+  border-radius: 3px;
+  background-color: #333333;
+  right: 0;
+  color: #cccccc;
+  font-size: 15px;
+  font-family: "Arial";
+  line-height: 17px;;
+  text-align: center;
+}

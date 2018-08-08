@@ -1,0 +1,10 @@
+.user-image__icon_type_warning {
+  width: 27px;
+  height: 27px;
+  border-radius: 15px;
+  color: white;
+  font-size: 20px;
+  background-color: rgba(217, 25, 36, 0.851);
+  line-height: 1.4;
+  text-align: center;
+}

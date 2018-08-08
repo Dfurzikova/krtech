@@ -14,6 +14,10 @@ block('root')({
                 {
                     elem: 'css',
                     url: '/index.min.css'
+                },
+                {
+                    elem: 'css',
+                    url: 'https://fonts.googleapis.com/css?family=Open+Sans&amp;subset=cyrillic'
                 }
             ],
             scripts: [
@@ -32,7 +36,7 @@ block('root')({
                 { elem : 'meta', attrs : { name : 'viewport', content : 'width=device-width, initial-scale=1' } }
             ],
             mods: {
-                theme: 'islands',
+               
                 view: data.view
             }
         };

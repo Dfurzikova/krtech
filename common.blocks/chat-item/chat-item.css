@@ -1,0 +1,8 @@
+.chat-item {
+    width: 100%;
+    position: relative;
+    height: 60px;
+    border-bottom: 1px solid #e3ecec;
+
+    display: flex;
+}

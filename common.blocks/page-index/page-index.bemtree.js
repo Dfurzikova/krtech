@@ -1,5 +1,9 @@
 block('page-index')({
-    content: () => [
-        'Index page content'
-    ]
+  content: function() {
+    return [
+      {
+        block: 'chat-container'
+      }
+    ];
+  }
 });

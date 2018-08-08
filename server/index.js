@@ -25,6 +25,12 @@ const port = process.env.PORT || config.defaultPort;
 const isSocket = isNaN(port);
 const isDev = process.env.NODE_ENV === 'development';
 
+
+//подключение файла пользователей
+const usersData = require('./users-data');
+
+
+
 require('debug-http')();
 
 app
@@ -61,6 +67,7 @@ app.get('/ping/', function(req, res) {
 });
 
 app.get('/', function(req, res) {
+    var users = usersData;
     render(req, res, {
         view: 'page-index',
         title: 'Main page',
@@ -70,8 +77,11 @@ app.get('/', function(req, res) {
                 url: 'https://site.com',
                 siteName: 'Site name'
             }
-        }
+        },
+        users: users
+    
     })
+    
 });
 
 isDev && require('./rebuild')(app);

@@ -1,0 +1,13 @@
+.user-image__icon_type_unread {
+    width: 18px;
+    height: 18px;
+    border-radius: 3px;
+    background-color: #d91924;
+    line-height: 18px;
+    text-align: center;
+    font-size: 11px;
+    font-family: "Arial";
+    margin: -6px 0 0 -4px;
+    color: white;
+}
+

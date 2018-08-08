@@ -1,0 +1,8 @@
+.chat-text__message {
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    color: #999999;
+    margin-bottom: 10px;
+    bottom: 0;
+    position: absolute;
+}
